@@ -1,21 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:wght@600&family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 *{
     box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif ;
 }
 
 
 .contain{
-    width: 100%;
+  
+    width:1400px;
     padding: 40px;
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   
 } 
+
+.contain1{
+    background-image:url(images/homeHero.png);
+    background-repeat:no-repeat;
+    width:1400px;
+    padding:75px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+    .container{
+        width: 1400px;
+        padding: 50px;
+        margin: 0 auto;
+        /* border: 1px solid  black; */
+    } 
+
+    .container1{
+        width: 1400px;
+        padding: 0px;
+        margin: 0 auto;
+        /* border: 2px solid blue; */
+        background-color: black;
+    } 
+
+  .imgcontain{
+      width: 343px;
+      /* padding: 25px; */
+      display:flex;
+      flex-direction: row;
+      
+      /* border: 1px solid blue; */
+
+  }
+
+
 .box1{
  
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 25px  ;
     margin: 0 auto;
     
@@ -24,12 +62,48 @@
 
  .logobox{
       
-    width: 20%;
-    border: 1px solid green;
-    padding: 20px  ;
+    width: 150px;
+    /* border: 1px solid green; */
+    padding: 5px;
     margin: 0 auto;
     
  }
+
+ .box2{
+      
+       
+    width: 346px;
+    /* border: 1px solid black; */
+    padding: 40px 10px ;
+    margin: 35px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    
+ }
+
+
+ .box3{
+    color: white;
+   width: 432px;
+   padding: 50px ;
+   margin:10px;
+   
+}
+
+
+.box{
+    
+    /* border: 1px solid red; */
+    padding: 10px 50px;
+   width:843px;
+   margin: 0 auto;
+ display: inline-block;
+
+}
+
 
     .flex{
         display: flex;
@@ -39,44 +113,78 @@
         align-content: space-between;
     }
 
-    .box2{
- 
-        width: 110px;
-        border: 1px solid black;
-        padding: 250px ;
-        margin: 35px;
-        
-     }
-
-     .box3{
-        width: 50px;
-        border: 1px solid black;
-        padding: 200px ;
-        margin: 35px;
-        
-     }
-
-     .container{
-        width: 100%;
-        padding: 25px;
-        margin: 15px auto;
-        border: 2px solid purple;
-    } 
-
-    .container1{
-        width: 100%;
-        padding: 50px;
-        margin: 50px auto;
-        border: 2px solid blue;
-        background-color: black;
-    } 
-    .box{
-            border: 1px solid red;
-            padding: 25px;
-            width: 15%;
-
-
+    .flexv2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: space-between;
     }
+
+ 
+    .wrap{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        /* align-items: space-between;
+        align-content: space-between; */
+    
+    }
+
+
+h1{
+    font-family: 'open sans', sans-serif;
+    font-size: 45px;
+ line-height: 1;
+
+}
+
+
+
+h2{
+    font-family: 'open sans', sans-serif;
+    font-size: 45px;
+  font-weight: 200;
+  line-height:1;
+    
+}
+
+h3{
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+ 
+
+}
+
+
+  
+h5{
+    font-family: 'Open Sans', sans-serif;
+   color: white;
+    font-weight:400;
+}
+
+
+p{
+    font-family:'Open Sans', sans-serif;
+    font-weight:100;
+    color: white;
+}
+
+.big {
+    font-size:200%;
+}
+
+.thin {
+    font-weight: 100;
+}
+     
+
+.bold{
+    font-weight: bold;
+}
+
+   
 
      nav li{
         text-decoration: none;
@@ -93,33 +201,47 @@
         font-family: 'Open Sans', sans-serif ;
     }
 
-    .logo{
-        float: right;
-
-    }
-
     
-    h5{
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-    }
+    
+
+
+.description{
+    color: gray;
+    display: inline-block;
+}
+
+
+.text{
+  display: flex;
+  justify-content:center;
+
+}
 
     button{
         background-color: black;
         color: white;
+        border: 1px solid white;
+        cursor: pointer;
+       
     }
 
-    p{
-        font-family: 'Open Sans', sans-serif;
-        color: white;
+
+input{
+    width: 431px;
+}
+
+    .menu{
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(214,99,99);
+    border: 1px solid rgb(214,99,99);
+     border-radius: 5px;
+     cursor: pointer;
     }
 
-    
-    .wrap{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: space-between;
-        align-content: space-between;
-    
-    }
+
+
+
+   
+
+ 
