@@ -165,6 +165,23 @@
         align-items: space-between;
     }
 
+hr{
+    width: 60%;
+    border-top: 1px solid #c9c9c9;  
+}
+
+#warning{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+    .row{
+        display: flex;
+        flex-wrap: wrap ;
+    }
  
     .wrap{
         display: flex;
