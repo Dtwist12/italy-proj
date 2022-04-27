@@ -9,7 +9,7 @@
 .contain{
   
     width:1400px;
-    padding: 40px;
+    /* padding: 40px; */
     margin: 0 auto;
     /* border: 1px solid blue; */
   
@@ -29,21 +29,19 @@
     background-image:url(images/homeHero.png);
     background-repeat:no-repeat;
     width:1400px;
-    padding:75px;
     margin: 0 auto;
     /* border: 1px solid blue; */
 }
 
     .container{
         width: 1400px;
-        padding: 50px;
+        padding-bottom: 25px;
         margin: 0 auto;
         /* border: 1px solid  black; */
     } 
 
     .container1{
         width: 1400px;
-        padding: 0px;
         margin: 0 auto;
         /* border: 2px solid blue; */
         background-color: black;
@@ -51,11 +49,11 @@
 
   .imgcontain{
       width: 343px;
-      /* padding: 25px; */
+     
       display:flex;
       flex-direction: row;
       
-      /* border: 1px solid blue; */
+      /* border: 1px solid rgb(98, 206, 233); */
 
   }
 
@@ -74,8 +72,7 @@
       
     width: 150px;
     /* border: 1px solid green; */
-    padding: 5px;
-    margin: 0 auto;
+    margin-right: 5px;
     
  }
 
@@ -83,9 +80,8 @@
       
        
     width: 346px;
+    margin-top: 15px;
     /* border: 1px solid black; */
-    padding: 40px 10px ;
-    margin: 100px;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -97,7 +93,7 @@
 
 .titlemenu{
     width:1400px;
-    padding:10px 20px;
+    /* padding:10px 20px; */
     margin:0 auto;
     display:flex;
     flex-direction:column;
@@ -110,8 +106,6 @@
        
     width: 616px;
     /* border: 1px solid black; */
-    padding: auto ;
-    margin: 100px;
     display:flex;
     flex-direction: column;
     justify-content:left;
@@ -132,8 +126,8 @@
  .box3{
     color: white;
    width: 432px;
-   padding: 50px ;
-   margin:10px;
+   padding-bottom: 150px ;
+   /* margin:10px; */
    
 }
 
@@ -152,7 +146,7 @@
     .flex{
         display: flex;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: space-between;
         align-content: space-between;
     }
@@ -160,7 +154,7 @@
     .flexv2{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-content: space-between;
         align-items: space-between;
     }
